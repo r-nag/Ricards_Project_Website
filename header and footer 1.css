@@ -1,0 +1,103 @@
+/* for header and footer of every pages*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+  border: 1px solid black;
+  padding: 6px;
+  background-color: black;
+  color: white;
+  font-size: 55px;
+  font-family: goudy old style;
+}
+
+a.header, a.footer {
+  text-decoration: none;
+  color: white;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.navbar {
+  float: right;
+  padding: 14px 22px;
+  font-size: 15px;
+  font-family: arial;
+}
+
+input[type=search] {
+  width: 350px;
+  padding: 8px;
+  border-radius: 15px 0px 0px 15px;
+  border: 1px solid black;
+  border-right: 0;
+  float: left;
+}
+
+.nav-button {
+  width: 35px;
+  padding: 8px;
+  border-radius: 0px 15px 15px 0px;
+  border: 1px solid black;
+  border-left: 0;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  min-height: 100%;
+  margin: 10px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  padding: 5px;
+}
+
+.main {
+  overflow: auto;
+  padding-bottom: 85px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 85px;
+  margin-top: -85px;
+  background-color: black;
+  padding: 15px 0px;
+  clear: both;
+}
+
+.ref {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: -14px;
+}
+
+.ref ul {
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+}
+
+.ref ul li {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  margin: 0px 3px;
+}
+
+.copyright {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  color: white;
+  text-align: center;
+}

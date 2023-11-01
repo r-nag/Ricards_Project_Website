@@ -1,0 +1,126 @@
+/* stylesheet 1 includes login page, signup page and forgot password page */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* for login page, codename-lp */
+div.lp-div1 {
+  width: 750px;
+  border: 1px solid silver;
+  border-radius: 15px;
+  padding: 0px 12px;
+  margin: 15px;
+}
+
+h2.lp-h2 {
+  font-family: calibri;
+  font-size: 42px;
+}
+
+input.lp-r {
+  margin: 5px;
+  width: 15em;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+button.lp-l {
+  width: 7em;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 4px;
+}
+
+::placeholder {
+  color: grey;
+}
+
+a.lp-a1 {
+  text-decoration: none;
+  color: blue;
+}
+
+hr.lp-hr {
+  width: 250px;
+}
+
+/* for signup page, codename-sp */
+div.sp-div1 {
+  border: 1px solid silver;
+  border-radius: 15px;
+  margin: 50px;
+  padding: 10px;
+  padding-top: 1px;
+}
+
+h2.sp-h2 {
+  font-family: calibri;
+  font-size: 42px;
+  text-align: center;
+}
+
+table.sp-table1 {
+  margin-left: 35px;
+  border: 1px solid white;
+}
+
+input.sp-input1, textarea[id=address] {
+  width: 20em;
+  margin: 5px;
+  margin-left: 15px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+textarea.sp-textarea1 {
+  float: right;
+}
+
+input.sp-input2 {
+  width: 6em;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 6px 4px;
+}
+
+/* for forgot password page, codename-fpp */
+div.fpp-div1 {
+  margin: 30px;
+  margin-bottom: 260px;
+  border: 1px solid silver;
+  border-radius: 15px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-top: 1px;
+}
+
+h2.fpp-h2 {
+  font-family: calibri;
+  font-size: 38px;
+  text-align: center;
+}
+
+input.fpp-input1 {
+  width: 20em;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+input.fpp-input2 {
+  width: 6em;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 6px 3px;
+}

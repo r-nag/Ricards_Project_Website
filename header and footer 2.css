@@ -1,0 +1,16 @@
+﻿/* for header and footer of every info. pages */
+
+a.header {
+  text-decoration: none;
+  color: black;
+  font-family: goudy old style;
+  font-size: 350%;
+}
+
+div.footer {
+  background-color: black;
+  color: white;
+  margin-top: 75px;
+  padding: 14px;
+  text-align: center;
+}
